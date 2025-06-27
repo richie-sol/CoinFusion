@@ -2,7 +2,7 @@ function Nav() {
   return (
     <>
     <div className="font-sans flex justify-around items-center p-4 max-w-6xl mx-auto relative">
-      <h1 className="font-semibold text-primary absolute left-2 top-8 px-2">CoinFusion</h1>
+      <h1 className="font-semibold text-primary absolute left-2 top-8 px-2 hidden md:block">CoinFusion</h1>
     <nav className="bg-white px-16 py-4 fixed top-4 z-10 rounded-full hidden md:flex shadow-md">
         <ul className="flex space-x-10">
             <li><a href="">Learn</a></li>
